@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArch.Libraries.Application\CleanArch.Libraries.Application.csproj" />
+    <ProjectReference Include="..\CleanArch.Libraries.Domain\CleanArch.Libraries.Domain.csproj" />
+    <ProjectReference Include="..\CleanArch.Libraries.Infrastructure\CleanArch.Libraries.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
